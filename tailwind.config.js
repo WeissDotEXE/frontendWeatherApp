@@ -15,8 +15,14 @@ module.exports={
                 },
                 white:{
                     950:"#ffffff"
+                },
+                red:{
+                    950:"#ff0000"
                 }
             },
+            dropShadow: {
+                'white': '0 5px 5px rgba(254, 253, 255,0.25)',
+            }
         },
     },
     plugins: [],

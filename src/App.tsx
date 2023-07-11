@@ -1,9 +1,12 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
+import Navigation from "./Components/Navigation/Navigation";
 
 function App() {
   return (
-    <div className={"bg-pink-950"}>Test</div>
+    <div className={"h-full bg-blue-950"}>
+      <Navigation/>
+    </div>
   );
 }
 
